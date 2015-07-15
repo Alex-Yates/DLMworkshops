@@ -5,7 +5,7 @@ DLM1, 2 and 3 directories
 - Contain files used for the Redgate source control, continuous integration and deployment workshops
 respectively.
 
-Databases
+Databases directory
 - This directory includes a scripted out version of the Dev databases we use for the workshops.
 The VM used for the workshop is set up with a single SQL Server with two instances: .\DEV and 
 .\PROD. These servers contain the following databases. The schemas for all the databases with 
