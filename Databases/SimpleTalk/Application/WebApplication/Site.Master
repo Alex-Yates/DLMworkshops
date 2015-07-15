@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SimpleTalk.WebApplication.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="logo">
+                <a href="Default.aspx"> <img alt="Simple Talk" src="simple-talk-logo.png" style="border:none;" width="144px" height="36px" /></a>
+                </div>
+            <div class="site-tagline">
+
+                A technical journal and community hub from Red Gate 
+               (<%=ConfigurationManager.AppSettings["EnvironmentName"]%>)
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                         <a href="https://www.simple-talk.com/community/login.aspx?ReturnUrl=%2fdefault.aspx">Sign in</a> 
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                </div>
+                <div class="RGlogo">
+                <a href="http://www.red-gate.com/" ><img src="red-gate-logo.png"   alt="Red Gate" style="border:none;" width="68px" height="24px" /></a>
+                
+                </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" SkipLinkText="">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="https://www.simple-talk.com/sql/" Text="SQL"/>
+                        <asp:MenuItem NavigateUrl="https://www.simple-talk.com/dotnet/" Text=".NET"/>
+                        <asp:MenuItem NavigateUrl="https://www.simple-talk.com/cloud/" Text="Cloud"/>
+                        <asp:MenuItem NavigateUrl="https://www.simple-talk.com/sysadmin/" Text="SysAdmin"/>
+                        <asp:MenuItem NavigateUrl="https://www.simple-talk.com/opinion/" Text="Opinion"/>
+                        <asp:MenuItem NavigateUrl="https://www.simple-talk.com/books/" Text="Books"/>
+                    </Items>
+                </asp:Menu>
+                <div class="site-search">
+    
+      <form method="get" action="/search/">
+    
+			  <input type="text" placeholder="Search…" name="search">
+        <button class="search-button" type="submit">
+          <img alt="Search" src="search.png">
+        </button>
+		
+      </form>
+    
+  </div>
+            </div>
+        <div class="greybar"></div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+
+</body>
+</html>

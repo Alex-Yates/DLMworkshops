@@ -1,0 +1,1 @@
+..\nuget pack "WebApplication.nuspec" -BasePath . -OutputDirectory "C:\LocalNuGetFeed"

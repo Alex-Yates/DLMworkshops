@@ -1,3 +1,0 @@
-CREATE USER [ssc_emailer] WITHOUT LOGIN WITH DEFAULT_SCHEMA=[dbo]
-GO
-GRANT CONNECT TO [ssc_emailer]

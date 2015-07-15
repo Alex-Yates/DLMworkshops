@@ -1,0 +1,18 @@
+SET IDENTITY_INSERT [Production].[ScrapReason] ON
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (1, N'Brake assembly not as ordered', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (2, N'Color incorrect', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (3, N'Gouge in metal', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (4, N'Drill pattern incorrect', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (5, N'Drill size too large', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (6, N'Drill size too small', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (7, N'Handling damage', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (8, N'Paint process failed', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (9, N'Primer process failed', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (10, N'Seat assembly not as ordered', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (11, N'Stress test failed', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (12, N'Thermoform temperature too high', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (13, N'Thermoform temperature too low', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (14, N'Trim length too long', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (15, N'Trim length too short', '2002-06-01 00:00:00.000')
+INSERT INTO [Production].[ScrapReason] ([ScrapReasonID], [Name], [ModifiedDate]) VALUES (16, N'Wheel misaligned', '2002-06-01 00:00:00.000')
+SET IDENTITY_INSERT [Production].[ScrapReason] OFF

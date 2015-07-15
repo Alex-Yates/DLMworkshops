@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTalk.WebApplication", "WebApplication\SimpleTalk.WebApplication.csproj", "{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTalk.Model", "Model\SimpleTalk.Model.csproj", "{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Latest|Any CPU = Latest|Any CPU
+		Latest|x86 = Latest|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Latest|Any CPU.ActiveCfg = Latest|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Latest|Any CPU.Build.0 = Latest|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Latest|x86.ActiveCfg = Latest|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1944A92C-91E6-4BA7-995A-4C206C7CAA2E}.Release|x86.ActiveCfg = Release|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Latest|Any CPU.ActiveCfg = Latest|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Latest|Any CPU.Build.0 = Latest|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Latest|x86.ActiveCfg = Latest|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B04CCB-2AF4-45C7-830B-C3DE03BCA69C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

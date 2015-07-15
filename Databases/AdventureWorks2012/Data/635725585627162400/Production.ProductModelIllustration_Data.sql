@@ -1,0 +1,7 @@
+INSERT INTO [Production].[ProductModelIllustration] ([ProductModelID], [IllustrationID], [ModifiedDate]) VALUES (7, 3, '2008-02-10 14:41:02.167')
+INSERT INTO [Production].[ProductModelIllustration] ([ProductModelID], [IllustrationID], [ModifiedDate]) VALUES (10, 3, '2008-02-10 14:41:02.167')
+INSERT INTO [Production].[ProductModelIllustration] ([ProductModelID], [IllustrationID], [ModifiedDate]) VALUES (47, 4, '2008-02-10 14:41:02.183')
+INSERT INTO [Production].[ProductModelIllustration] ([ProductModelID], [IllustrationID], [ModifiedDate]) VALUES (47, 5, '2008-02-10 14:41:02.183')
+INSERT INTO [Production].[ProductModelIllustration] ([ProductModelID], [IllustrationID], [ModifiedDate]) VALUES (48, 4, '2008-02-10 14:41:02.183')
+INSERT INTO [Production].[ProductModelIllustration] ([ProductModelID], [IllustrationID], [ModifiedDate]) VALUES (48, 5, '2008-02-10 14:41:02.183')
+INSERT INTO [Production].[ProductModelIllustration] ([ProductModelID], [IllustrationID], [ModifiedDate]) VALUES (67, 6, '2008-02-10 14:41:02.200')
