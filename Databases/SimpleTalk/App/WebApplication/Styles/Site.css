@@ -1,0 +1,472 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #CFD1D2; /* this is the border on either side of the main panel */
+    font-size: .80em;
+    font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color:#666666;
+}
+
+a:link, a:visited
+{
+    color: #CC6633;
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    color:	#666666;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #000000;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+}
+
+h1
+{
+    display: block;
+    color: #999999;
+    font-size: 2.5em;
+    font-weight: normal;
+    border-bottom: 10px solid #DDDDDD;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+h2
+{
+    font-family: Arial;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom:5px;
+    color: #92171a;
+}
+a:hover h2
+{
+    text-decoration:underline;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #fff; /* This is the background of the main panel */
+/*    background-color: #FFDDFF; */ /* This is the background of the main panel - pink */
+    margin: 0px auto 0px auto;
+    }
+
+.header
+{
+    color: #fff;
+    position: relative;
+    margin: 0px;
+    padding: 0 0 0 0;
+    background: #92171a;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 0px;
+    margin: 12px 0px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+.column1 
+{
+    float:left;
+    width:665px;
+   
+}
+
+.column2 
+{
+    color:#92171a;
+    float:right;
+    background:#EEEEEE;
+    width:250px;
+    padding:0 10px 20px 10px;
+    margin:0 0 10px 0;
+}
+.sidebanner 
+{
+    float:right;
+    width:250px;
+    height:250px;
+    padding:0 10px 0px 10px;
+    margin:0 0 10px 0;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#ffffff;
+    min-height:15px;
+    padding:12px 10px 10px 10px;
+    }
+
+div.hideSkiplink a
+{
+    color: #808080;
+    padding:10px 15px 5px 15px;
+    font-weight: bold;
+    font-size:14px;
+    }
+
+div.hideSkiplink a:hover
+{
+    border-bottom:4px solid #d78c8f;
+    text-decoration:none;
+    }
+
+div.menu
+{
+    padding: 15px 0px 15px 8px;
+    display: inline-block;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #808080;
+    display: block;
+    border-bottom-width:4px;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    border-bottom-style:solid;
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #808080;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.logo
+{
+    display: block;
+    float: left;
+    text-align: left ;
+    padding-left: 22px;
+    width: 144px;
+    margin:30px 15px 0 0;
+}
+.RGlogo
+{
+    position:absolute;
+    top: 0px;
+    right: 7px;
+    padding: 10px 10px 10px 10px;
+    margin:24px 0 0 0;
+}
+
+.site-tagline
+{
+    text-align: left ;
+    float: left;
+    font-size: 14px;
+    display: block;
+    height: 16px;
+    margin:41px 15px 0 0;
+}
+
+.loginDisplay
+{
+    
+    height:75px;
+}
+
+.loginDisplay a:link
+{
+    float:left;
+    font-weight: normal;
+    color:#fff;
+    margin: 30px 10px 0 120px;
+    border: 1px solid #ccc;
+    border-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.loginDisplay a:visited
+{
+    color:#fff;
+}
+
+.loginDisplay a:hover
+{
+    color:#fff;
+}
+
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.greybar 
+{
+    height:29px;
+    background:#EEEEEE;
+}
+.site-search {
+    position:absolute;
+    left:703px;
+    top:82px;
+}
+.site-search input {
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    padding: 3px;
+    width: 200px;
+}
+.site-search .search-button {
+    background-color: transparent;
+    border: medium none;
+}
+.search-js {
+    display: none;
+}
+
+.column2 .btn  {
+    color: #92171A;
+    font-weight: bold;
+    background-color: #E5D9D9;
+    border:solid 1px #92171A;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.83em;
+    text-decoration:none;
+    padding:5px;
+}
+    .column2 .btn a:hover {
+        text-decoration: none;
+        background-color: #CC6633;
+    }
+.column2 a {
+    color: #92171A;
+    font-weight: bold;
+}
+.column2 a:hover {
+    text-decoration:underline;
+}
+.author-image {
+    /*background-image: url('/Images/Default.jpg');*/
+    width: 65px;
+    height: 85px;
+    border:2px solid #EEEEEE;
+    }
+
+/*Page Footer  
+----------------------------------------------------------*/
+.pagefooter {
+    background-color: #630302;
+    text-align: left;
+}
+.pagefooter, .pagefooter a {
+    color: #FFFFFF;
+}
+.pagefooter {
+    clear: both;
+    padding: 15px 30px 15px 15px;
+    min-height: 70px;
+}
+.pagefooter li:first-child {
+    border-left: medium none;
+}
+.pagefooter li {
+    border-left: 1px solid #FFFFFF;
+    padding: 0 1em;
+}
+.pagefooter .footer-nav {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 15px 0 ;
+    padding: 0;
+}
+.pagefooter .footer-legal-nav {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 15px 0 0  0 ;
+    padding: 0;
+}
+.pagefooter .red-gate-logo {
+    float: right;
+}
+.pagefooter li {
+    display: block;
+    float: left;
+    margin: 0 2px;
+    padding: 0 10px 0 10px;
+}
+.pagefooter ul {
+    list-style-type: none;
+}

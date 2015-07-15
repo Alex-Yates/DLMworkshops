@@ -1,0 +1,1 @@
+BUILD /scriptsFolder=SqlServerCentral\DB\state\ /packageId=SSC /packageVersion=1.0.%build.number% /outputFolder=C:\DLM2\PackageBuilds\

@@ -1,0 +1,1 @@
+invoke-sqlcmd -inputfile "C:\DLM3\ExamplePostDeployScript.sql" -ServerInstance $ServerInstance -Database $DatabaseName -Password $DatabasePassword -Username $DatabaseUsername

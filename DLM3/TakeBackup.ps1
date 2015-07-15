@@ -1,0 +1,1 @@
+& "$SqlBackupLocation\\$ServerInstanceName\\SQLBackupC.exe" -U $DatabaseUsername -P $DatabasePassword -I $ServerInstanceName -SQL "BACKUP DATABASE `"$DatabaseName`" TO DISK = '$BackupDirectory\\<auto>' "

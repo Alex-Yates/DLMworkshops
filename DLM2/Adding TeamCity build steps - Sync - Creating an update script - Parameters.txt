@@ -1,0 +1,1 @@
+/additionalCompareArgs="/ScriptFile:C:\DLM2\UpdateScripts\SyncDb.1.0.%build.number%.sql" 

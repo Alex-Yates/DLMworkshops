@@ -1,0 +1,18 @@
+SET IDENTITY_INSERT [dbo].[NewsletterUnsubscribeThresholds] ON
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (1, 'NewsletterSubscriber', 1, 30, 1)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (2, 'DatabaseWeeklySubscriber', 1, 30, 1)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (3, 'NewsletterSubscriber', 4096, 7, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (4, 'DatabaseWeeklySubscriber', 4096, 30, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (5, 'NewsletterSubscriber', 16, 30, 1)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (6, 'DatabaseWeeklySubscriber', 16, 30, 1)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (7, 'NewsletterSubscriber', 128, 7, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (8, 'DatabaseWeeklySubscriber', 128, 30, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (9, 'NewsletterSubscriber', 512, 7, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (10, 'DatabaseWeeklySubscriber', 512, 30, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (11, 'NewsletterSubscriber', 16384, 7, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (12, 'DatabaseWeeklySubscriber', 16384, 30, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (13, 'NewsletterSubscriber', 8192, 7, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (14, 'DatabaseWeeklySubscriber', 8192, 30, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (15, 'NewsletterSubscriber', 2, 7, 3)
+INSERT INTO [dbo].[NewsletterUnsubscribeThresholds] ([ID], [EmailTypeName], [BounceType], [DaysWindow], [Threshold]) VALUES (16, 'DatabaseWeeklySubscriber', 2, 30, 3)
+SET IDENTITY_INSERT [dbo].[NewsletterUnsubscribeThresholds] OFF

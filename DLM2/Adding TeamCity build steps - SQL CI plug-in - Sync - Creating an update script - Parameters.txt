@@ -1,0 +1,1 @@
+/scriptfile:""C:\DLM2\UpdateScriptsPlugin\SyncDb.1.0.%build.number%.sql" 

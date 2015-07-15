@@ -1,0 +1,1 @@
+#{ExportPath}\#{Octopus.Project.ID}\#{Octopus.Release.Number}\#{Octopus.Action[Download package].Package.NuGetPackageId}

@@ -1,0 +1,1 @@
+SYNC /package=c:\DLM2\PackageBuilds\SSC.1.0.%build.number%.nupkg /databaseServer=.\DEV /databaseName=SqlServerCentral_Integration
