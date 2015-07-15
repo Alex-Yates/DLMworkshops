@@ -1,5 +1,5 @@
 # DLMworkshops
-A collection of scripts and resources that are used for the Redgate DM workshops
+A collection of scripts and resources that are used for the Redgate DM workshops.
 
 - DLM1, 2 and 3 directories
 Contain files used for the Redgate source control, continuous integration and deployment workshops
