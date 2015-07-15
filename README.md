@@ -13,28 +13,28 @@ in a near identical state with some minor modifications between Dev and Prod dat
 simulate new changes:
 
 .\DEV
-AdventureWorks2012_Dev
-AdventureWorks2012_Test
-BlogsDotRedgate_Dev
-BlogsDotRedgate_Integration
-BlogsDotRedgate_Test
-BlogsDotRedgate_Staging
-RedGate <-- Created and managed by Redgate tools
-SimpleTalk_Dev
-SimpleTalk_Integration
-SimpleTalk_Test
-SimpleTalk_Staging
-SqlServerCentral_Dev
-SqlServerCentral_Integration
-SqlServerCentral_Test
-SqlServerCentral_Staging
+- AdventureWorks2012_Dev
+- AdventureWorks2012_Test
+- BlogsDotRedgate_Dev
+- BlogsDotRedgate_Integration
+- BlogsDotRedgate_Test
+- BlogsDotRedgate_Staging
+- RedGate <-- Created and managed by Redgate tools
+- SimpleTalk_Dev
+- SimpleTalk_Integration
+- SimpleTalk_Test
+- SimpleTalk_Staging
+- SqlServerCentral_Dev
+- SqlServerCentral_Integration
+- SqlServerCentral_Test
+- SqlServerCentral_Staging
 
 .\PROD
-AdventureWorks2012_Production
-BlogsDotRedgate_Production
-RedGate <-- Created and managed by Redgate tools
-SimpleTalk_Production
-SqlServerCentral_Production
+- AdventureWorks2012_Production
+- BlogsDotRedgate_Production
+- RedGate <-- Created and managed by Redgate tools
+- SimpleTalk_Production
+- SqlServerCentral_Production
 
 The SimpleTalk and BlogsDotRedgate databases have been created purely for demo
 purposes and they can be used with the SimpleTalk web app which is included in 
